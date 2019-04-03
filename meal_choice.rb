@@ -1,7 +1,7 @@
 def '#meal_choice' do
   it 'should default to meat' do
-    expect (meal_choice).to eq("meat")
+    expect (burger).to eq("meat")
   end
 
   it 'should allow you to set a meal' do
-    expect(meal_choice("vegan")).to eq("vegan")
+    expect(burger("vegan")).to eq("vegan")
