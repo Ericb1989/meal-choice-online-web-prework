@@ -1,2 +1,7 @@
-# Define a method meal_choice that returns the meal_choice that was
-# passed into it and defaults to meat.
+def '#meal_choice' do
+  it 'should default to meat' do
+    expect (burger).to eq("meat")
+  end
+
+  it 'should allow you to set a meal' do
+    expect(burger("vegan")).to eq("vegan")
